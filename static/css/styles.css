@@ -4,16 +4,25 @@
 }
 
 body {
-  font-family: 'Fredoka One';
+  font-family: 'Architects Daughter';
+}
+
+header h1{
+  font-family: 'Pacifico';
+}
+
+#controls button {
+  width:100px;
 }
 
 #container {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 900px;
-  background-color: #ddd;
+  background-color: #eee;
+  border:solid 2px #aaa;
   border-radius:15px;
-  padding:5px;
-
+  padding:15px;
+  box-shadow: 5px 5px 5px #bbb;
 }
 
 #beat-container {
@@ -22,5 +31,30 @@ body {
 }
 
 #beat-container .beat {
-  width:100px;height:100px;font-size:80px;line-height:100px;
+  width:100px;
+  height:100px;
+  font-size:80px;
+  line-height:100px;
+}
+
+.result-list {
+  list-style:none;
+}
+
+.tracks .track {
+  height:60px;
+  padding:5px;
+  border:solid 1px #333;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+div.ion {
+  font-size:24px;
+  display:block;
+  text-align:center;
+}
+
+.bpm-slider {
+  text-align:center;
 }

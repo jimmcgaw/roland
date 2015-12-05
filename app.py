@@ -15,13 +15,13 @@ def index():
   return render_template('index.html')
 
 def build_url(q):
+  query_args = {'query': q, 'token': FREESOUND_API_CLIENT_SECRET, 'filter': 'type:wav duration:[0 TO 3]'}
+  encoded_args = urllib.urlencode(query_args)
   return ''.join([
     FREESOUND_API_BASE_URL,
     FREESOUND_API_SEARCH_PATH,
-    '?query=',
-    q,
-    '&token=',
-    FREESOUND_API_CLIENT_SECRET
+    '?',
+    encoded_args
   ])
 
 @app.route('/search')
@@ -55,6 +55,6 @@ def sound():
   return jsonify(**response)
 
 if __name__ == "__main__":
-    import logging
-    logging.basicConfig(level=logging.DEBUG)
+    # import logging
+    # logging.basicConfig(level=logging.DEBUG)
     app.run()
