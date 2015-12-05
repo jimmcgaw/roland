@@ -1,0 +1,527 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 15, in search
+    return flask.jsonify(**f)
+NameError: global name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:14:58] "GET /search HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 15, in search
+    return flask.jsonify(**f)
+NameError: global name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:15:00] "GET /search HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 15, in search
+    return flask.jsonify(**f)
+NameError: global name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:15:01] "GET /search HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 15, in search
+    # return flask.jsonify(**f)
+NameError: global name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:15:44] "GET /search HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 15, in search
+    # return flask.jsonify(**f)
+NameError: global name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:15:46] "GET /search HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 15, in search
+    # return flask.jsonify(**f)
+NameError: global name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:15:59] "GET /search HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 15, in search
+    # return flask.jsonify(**f)
+NameError: global name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:16:10] "GET /search HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:16:11] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:17:53] "GET /search HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:18:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:18:49] "GET / HTTP/1.1" 200 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 15, in search
+    return flask.jsonify(**f)
+NameError: global name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:19:00] "GET /search HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 15, in search
+    return flask.jsonify(**f)
+NameError: global name 'flask' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:19:01] "GET /search HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:19:01] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:19:42] "GET /search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:21:44] "GET /search?q=what HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:21:47] "GET /search?q=what HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:21:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 14, in search
+    if request.form['q']:
+NameError: global name 'request' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:21:52] "GET /search?q=what HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 14, in search
+    if request.form['q']:
+NameError: global name 'request' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:22:17] "GET /search?q=what HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 14, in search
+    if request.form['q']:
+NameError: global name 'request' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:22:19] "GET /search?q=what HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 14, in search
+    if request.form['q']:
+NameError: global name 'request' is not defined
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:22:21] "GET /search?q=what HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:22:21] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:22:28] "GET /search?q=what HTTP/1.1" 400 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:22:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:22:42] "GET /search?q=what HTTP/1.1" 400 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:22:45] "GET /search?q=what HTTP/1.1" 400 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:22:45] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:24:00] "GET /search?q=what HTTP/1.1" 400 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:24:02] "GET /search?q=what HTTP/1.1" 400 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:24:09] "GET /search?q=what HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:24:25] "GET /search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:41:02] "GET /search HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:41:11] "GET /search?q=piano HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 33, in search
+    return jsonify(**response)
+TypeError: jsonify() argument after ** must be a mapping, not str
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:41:22] "GET /search?q=piano HTTP/1.1" 500 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 33, in search
+    
+TypeError: jsonify() argument after ** must be a mapping, not str
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:42:09] "GET /search?q=piano HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:42:15] "GET /search?q=piano HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 00:42:25] "GET /search?q=bass HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:21:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:21:58] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:21:58] "GET /css/styles.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:21:58] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:21:58] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:21:58] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:21:58] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:21:58] "GET /js/beatbox.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:21:58] "GET /node_modules/underscore/underscore.js HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:22:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:22:38] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:28:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:28:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:28:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:29:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:29:00] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:29:00] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:29:00] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:29:00] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:29:00] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:29:00] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:29:00] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:29:00] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:15] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:15] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:15] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:15] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:15] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:15] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:15] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:15] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:30] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:30] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:30] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:30] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:30] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:30] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:30] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:30] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:39] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:39] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:39] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:39] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:39] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:39] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:39] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:30:39] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:05] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:35] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:35] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:35] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:35] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:35] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:35] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:35] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:35] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:36:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:44:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:45:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:45] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:45] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:45] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:45] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:45] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:45] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:45] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:46:45] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:49:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:13] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:13] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:13] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:13] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:13] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:13] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:13] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:50:13] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:02] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:02] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:02] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:02] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:02] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:02] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:02] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:02] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:51:08] "GET /search?q=who HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:59:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:59:56] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:59:56] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:59:56] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:59:56] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:59:56] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:59:56] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:59:56] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 01:59:56] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:00:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:18] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:18] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:18] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:18] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:18] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:18] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:18] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:18] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:02:23] "GET /search?q=hello HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:03:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:03:13] "GET /search?q=piano HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:03] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:03] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:03] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:03] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:03] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:03] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:03] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:03] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:04:10] "GET /search?q=piano HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:41] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:41] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:41] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:41] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:41] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:41] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:41] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:41] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:05:46] "GET /search?q=piano HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:20] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:20] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:20] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:20] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:20] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:20] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:20] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:20] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:07:26] "GET /search?q=piano HTTP/1.1" 200 -
+ERROR:__main__:Exception on /search [GET]
+Traceback (most recent call last):
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/smoochy/source/roland/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "app.py", line 31, in search
+    cn = urllib2.urlopen(url)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 437, in open
+    response = meth(req, response)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 550, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 475, in error
+    return self._call_chain(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 558, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 400: Bad request
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:08:41] "GET /search?q=bass+drum HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:17:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:18:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:18:19] "GET /search?q=bass HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:20:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:20:37] "GET /search?q=bass HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:23:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:23:24] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:23:24] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:23:24] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:23:24] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:23:24] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:23:24] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:23:24] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:23:24] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:25:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:25:54] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:25:54] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:25:54] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:25:54] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:25:54] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:25:54] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:25:54] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:25:54] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:26:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:26:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:00] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:00] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:00] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:00] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:00] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:00] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:00] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:00] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:48] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:48] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:48] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:48] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:48] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:48] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:48] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:27:48] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:12] "GET /node_modules/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:12] "GET /node_modules/bootstrap-slider/dist/css/bootstrap-slider.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:12] "GET /css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:12] "GET /node_modules/jquery/dist/jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:12] "GET /node_modules/bootstrap/dist/js/bootstrap.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:12] "GET /node_modules/bootstrap-slider/dist/bootstrap-slider.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:12] "GET /node_modules/underscore/underscore.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:28:12] "GET /js/beatbox.js HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [05/Dec/2015 02:29:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

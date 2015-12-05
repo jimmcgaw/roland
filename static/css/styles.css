@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Fredoka One';
+}
+
+#container {
+  margin: 0 auto;
+  width: 900px;
+  background-color: #ddd;
+  border-radius:15px;
+  padding:5px;
+
+}
+
+#beat-container {
+  height:100px;
+  margin-bottom:10px;
+}
+
+#beat-container .beat {
+  width:100px;height:100px;font-size:80px;line-height:100px;
+}
