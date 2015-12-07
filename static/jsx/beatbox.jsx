@@ -1,5 +1,5 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+const React = require('react');
+const ReactDOM = require('react-dom');
 import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
 
 
@@ -7,7 +7,7 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
   
   const DEFAULT_BPM = 65;
 
-  var getBpm = function(){
+  const getBpm = function(){
     let defaultBpm = DEFAULT_BPM;
     try{
         let cachedBpm = localStorage.getItem('beatbox-default-bpm');
@@ -108,7 +108,6 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
     }
 
     onSearchSuccess(response){
-      console.log(response);
       this.setState({
         'results': response.results
       });
@@ -130,8 +129,6 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
     onLoadSoundSuccess(audioData){
       console.log(audioData);
       this.props.onUpdateSelectedAudio(audioData);
-      // let audio = new Audio(audioData.download);
-      // audio.play();
     }
 
     render(){
@@ -184,7 +181,7 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
     }
 
     onAddTrack(){
-      let selectedAudio = this.state.selectedAudio;
+      const selectedAudio = this.state.selectedAudio;
       let newTrack = {
         'id': Math.random(),
         'name': selectedAudio.name,
@@ -205,7 +202,7 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
     }
 
     onPlayPreview(){
-      var audioUrl = this.state.selectedAudio.download;
+      const audioUrl = this.state.selectedAudio.download;
       new Audio(audioUrl).play();
     }
 
@@ -580,13 +577,11 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
     }
 
     onChange(e){
-      console.log(e);
       var newEnabledState = $(e.target).is(':checked');
       this.props.updateTrackState(this.props.track.id, {'isEnabled': newEnabledState });
     }
 
     onChangeTick(e){
-      console.log(e);
       var newTickState = $(e.target).is(':checked');
       var tickIndex = $(e.target).data('tick_index');
 

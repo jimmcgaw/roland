@@ -274,7 +274,6 @@
 	    }, {
 	      key: 'onSearchSuccess',
 	      value: function onSearchSuccess(response) {
-	        console.log(response);
 	        this.setState({
 	          'results': response.results
 	        });
@@ -298,8 +297,6 @@
 	      value: function onLoadSoundSuccess(audioData) {
 	        console.log(audioData);
 	        this.props.onUpdateSelectedAudio(audioData);
-	        // let audio = new Audio(audioData.download);
-	        // audio.play();
 	      }
 	    }, {
 	      key: 'render',
@@ -384,9 +381,9 @@
 	          'tickData': [1, 0, 0, 0, 0, 0, 0, 0],
 	          'isEnabled': true
 	        };
+
 	        if (typeof newTrack.src !== 'undefined') {
 	          this.props.onAddTrack(newTrack);
-	          this.hideModal();
 	        }
 	      }
 	    }, {
@@ -912,14 +909,12 @@
 	    _createClass(Track, [{
 	      key: 'onChange',
 	      value: function onChange(e) {
-	        console.log(e);
 	        var newEnabledState = $(e.target).is(':checked');
 	        this.props.updateTrackState(this.props.track.id, { 'isEnabled': newEnabledState });
 	      }
 	    }, {
 	      key: 'onChangeTick',
 	      value: function onChangeTick(e) {
-	        console.log(e);
 	        var newTickState = $(e.target).is(':checked');
 	        var tickIndex = $(e.target).data('tick_index');
 

@@ -53,3 +53,11 @@ Alternately, you can run `$ webpack --watch`. This will leave a webpack process 
 The small bit of Python code responsible for handling server-side requests and proxying to external APIs resides in app.py.
 
 ## TODO
+
+The audio files, when there are multiple that need to be played on a single beat, are loaded and played sequentially 
+on each beat. This works reasonably well, but there are drawbacks. When the number of sounds we're playing gets numerous,
+there will probably be a noticeable delay in playing the sounds in a chain. We should load all Audio files into a buffer
+and play them from the buffer.
+
+Also, the timing of the app is handled using a setTimeout chain with a potentially dynamic interval. We need a better
+means of timekeeping (see the comment in the 'tick' method in the Beatbox component.)
