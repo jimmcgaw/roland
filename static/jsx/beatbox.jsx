@@ -67,7 +67,8 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
               <label className="control-label">Description</label>: <div className="form-control-static">{this.props.selectedAudio.description}</div>
             </div>
             <div className="row">
-              <Button onClick={this.props.onPlayPreview}><span className="ion-headphone"></span></Button>
+              <Button onClick={this.props.onPlayPreview}><span className="ion-headphone"></span> Preview</Button>
+              <Button onClick={this.props.onAddTrack} bsStyle="primary"><span className="ion-headphone"></span> Add Track</Button>
             </div>
           </div>
         );
@@ -150,7 +151,10 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
             <ResultsList loadSound={this.loadSound.bind(this)} results={this.state.results} />
           </div>
           <div className="col-md-6">
-            <SelectedResult selectedAudio={this.props.selectedAudio} onPlayPreview={this.props.onPlayPreview} />
+            <SelectedResult 
+              selectedAudio={this.props.selectedAudio} 
+              onPlayPreview={this.props.onPlayPreview} 
+              onAddTrack={this.props.onAddTrack} />
           </div>
           </div>
         </div>
@@ -188,9 +192,9 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
         'tickData': [1,0,0,0,0,0,0,0],
         'isEnabled': true
       };
+
       if (typeof newTrack.src !== 'undefined'){
         this.props.onAddTrack(newTrack);
-        this.hideModal();
       }
     }
 
@@ -225,11 +229,12 @@ import { Button, ButtonToolbar, Modal } from 'react-bootstrap';
               <SearchBox 
                 selectedAudio={this.state.selectedAudio} 
                 onUpdateSelectedAudio={this.onUpdateSelectedAudio.bind(this)} 
-                onPlayPreview={this.onPlayPreview.bind(this)} />
+                onPlayPreview={this.onPlayPreview.bind(this)}
+                onAddTrack={this.onAddTrack.bind(this)} />
             </Modal.Body>
             <Modal.Footer>
               <Button bsStyle="default" onClick={this.hideModal.bind(this)}>Cancel</Button>
-              <Button bsStyle="primary" onClick={this.onAddTrack.bind(this)}>Add</Button>
+              <Button bsStyle="primary" onClick={this.hideModal.bind(this)}>Finish</Button>
             </Modal.Footer>
           </Modal>
         </ButtonToolbar>

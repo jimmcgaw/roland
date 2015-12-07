@@ -29,7 +29,6 @@ Install npm packages by running (depending on how your npm path permissions are 
 Lastly, there are few utilities you'll need to run the build process. This is for compiling .JSX and EcmaScript 6 code down to ES5 JavaScript. Use npm to install the following packages globally on your machine:
 
 ```$ npm install -g webpack```
-```$ npm install -g babel-loader```
 
 ## Running
 
