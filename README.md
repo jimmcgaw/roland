@@ -22,7 +22,7 @@ Now, you can install Python dependencies by running:
 
 `$ pip install -r requirements.txt`
 
-Install npm packages by running (depending on how your npm path permissions are configured, you might need to run this as `sudo`, or consider using (nvm)[https://github.com/creationix/nvm] to manage your node versions):
+Inside of the `/static/` dir, install npm packages by running (depending on how your npm path permissions are configured, you might need to run this as `sudo`, or consider using (nvm)[https://github.com/creationix/nvm] to manage your node versions):
 
 `$ npm install`
 
