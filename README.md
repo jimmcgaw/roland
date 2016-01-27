@@ -12,6 +12,7 @@ Also, this project uses virtualenv so that dependency installation does not affe
 but a local project-only Python executable. Install [virtualenv](https://virtualenv.readthedocs.org/en/latest/installation.html) using pip. Then, create a virtualenv in your project locally by running
 
 ```$ virtualenv roload```
+
 ```$ cd roload```
 
 Then, in order to enter the virtualenv, so that you are modifying your project Python instead of system one, run this inside of the project:
